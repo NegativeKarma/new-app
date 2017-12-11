@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  video = {
+    title: 'Take Five',
+    views: 2,
+    liked: true
+  }
+
+  handleClick(){
+    console.log('You clicked the button!')
+  }
 }
