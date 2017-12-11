@@ -19,6 +19,8 @@ Name written
 * Is it possible to add the component to the app.component.html file?
 * It is possible and it is where it should be added
 
+Button inspiration video https://youtu.be/fDqGfrnutug?t=2m38s
+
 
 # NewApp
 

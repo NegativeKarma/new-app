@@ -1,0 +1,12 @@
+<button *ngIf="!isShown" (click)="isShown = true">show</button>
+<button *ngIf="isShown" (click)="isShown = false">hide</button>
+<div *ngIf="isShown">
+  <ul>
+    <li *ngFor="let video of videos">
+      Name: {{video.name}}
+      Liked: {{video.liked}}
+    </li>
+  </ul>
+<p *ngIf="isShown">This should be hidden or shown</p>
+  <img src="https://images.unsplash.com/photo-1432212920371-6a2b5f1dbb09?auto=format&fit=crop&w=1034&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D">
+</div>
