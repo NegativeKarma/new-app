@@ -1,3 +1,25 @@
+# Questions
+
+* Where in the file structure is the component file located?
+The new Comment component is in `src/app/comment`
+
+* What is the decorator, and what information does the decorator have?
+The decorator tell us that CommentComponent is a  component by stating it with `@Component`. The decorator store information about the `selector` , `templateUrl`, `styleUrls`.
+
+* Where is the template file located? Now add a paragraph with your name in the template
+It is in src/app/comment/ in the file `comment.component.html`
+Name written
+
+* How do we add our component to a view?
+Checking the selector in `src/app/comment/comment.component.ts` and then copying said selector in the `src/app/app.component.html`
+
+* Can we add our component to the index file?
+Most of the time you’ll render a component in the root component or a component that’s a child of the root component. You can render the component in the index.html too, but it requires to create a `@NgModule` and change the configuration of the bootstrap object
+
+* Is it possible to add the component to the app.component.html file?
+It is possible and it is where it should be added
+
+
 # NewApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
